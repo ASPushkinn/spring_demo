@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "df1142e2-91fe-4d42-b3f2-8911e5d72535",
+		"name": "redis collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29232474"
+	},
+	"item": [
+		{
+			"name": "GET accesscount list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/accesscount",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"accesscount"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT access peter",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/peter",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"peter"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT access peter2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/peter",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"peter"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT access tom",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tom"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
